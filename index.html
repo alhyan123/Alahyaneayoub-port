@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALAHYANE AYOUB </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ayoub Alahyane</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experiance</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="tacos-nav">
+        <div class="logo">Ayoub Alahyane</div>
+        <div class="tacos-menu">
+            <div class="tacos-icons" onclick="toggleMenu()" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container" >
+            <img src="./assets/ayoub-pic.jpg" alt="ALAHYANE AYOUB PROFILE PIC">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title">Alahyane Ayoub</h1>
+            <p class="section__text__p2">Mobile Developer , IT Managment</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/AYOUB-ALAHYANE.pdf')">Download CV</button>
+                <button class="btn btn-color-1"
+                onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="sociale-container">
+                <img src="/assets/linkedin.png" alt="this is Ayoub Alahyane Linkedin Profile" class="icon" onclick="location.href='https://www.chococakerecipe.com/'">
+                <img src="/assets/github.png" alt="this is Ayoub Alahyane Github Profile" class="icon" onclick="location.href='https://www.chococakerecipe.com/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+                
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experiance</h3>
+                        <p>2+ years <br/>Mobile and Game Develepment</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.S Physique</p>
+                        <p>D.T Réseau Informatique</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        My name is Ayoub Alahyane. I have a diploma in IT management from OFPPT in Agadir. My passion lies in mobile and game development, where I enjoy creating engaging applications and interactive experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"onclick="location.href='./#experience'">
+    </section>
+    <section id="experience" >
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experiance</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Mobile Develepment</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>WordPress</h3>
+                                <p>Experianced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Unity</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">IT Managment</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Project Management</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>LINUX</h3>
+                                <p>Experianced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Windows Serveur</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Network Management</h3>
+                                <p>Intermediat</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Information Systems</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Cybersecurity</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Brows My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                
+                <div class="article-container">
+                    <img src="/assets/project-1.png" alt="My first Project" class="project-img">
+                    
+                </div>
+                <h2 class="experience-sub-title Project-title">My firts APP MOBILE (Wallpaper)</h2>
+                <div class="btn-container"> 
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alhyan123'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/uc?export=download&id=1R6-3IUXwYwOHDtRuX-by-lATZCoABOx7'">Demo</button>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/project-2.webp" alt="My first game Project" class="project-img">
+                    
+                </div>
+                <h2 class="experience-sub-title Project-title">Game Fighting</h2>
+                <div class="btn-container"> 
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alhyan123'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/uc?export=download&id=1D6yeDImM4DPYNPUKouS7gP3lt0RVyXI3'">Demo</button>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/project-3.webp" alt="My third Game Project" class="project-img">
+                    
+                </div>
+                <h2 class="experience-sub-title Project-title">Game Adventure</h2>
+                <div class="btn-container"> 
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alhyan123'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/uc?export=download&id=1tbLFfkSu8I-ejdi9dHr1sHQcLRkeCwdi'">Demo</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Click To contact Me" class="icon contact-icon email-icon">
+                <p><a href="mailto:alhyanayoub@gmail.com">alhyanayoub@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Click To contact Me" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/alahyaneayoub1997/">Linkedin</a></p>
+            </div>
+        </div>                             
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experiance">Experiance</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Alahyane Ayoub.</p>
+    </footer>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
